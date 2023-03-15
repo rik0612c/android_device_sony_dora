@@ -26,9 +26,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Inherit from tone-common
 $(call inherit-product, device/sony/tone-common/tone.mk)
 
-# Vendor properties
--include $(LOCAL_PATH)/vendor_prop.mk
-
 # Camera Configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \

@@ -23,6 +23,9 @@ DEVICE_PATH := device/sony/dora
 # Assert
 TARGET_OTA_ASSERT_DEVICE := dora,dora_dsds,F8131,F8132
 
+# Device Properties
+TARGET_VENDOR_PROP := $(DEVICE_PATH)/vendor.prop
+
 # Kernel
 TARGET_KERNEL_CONFIG := tone_dora_defconfig
 

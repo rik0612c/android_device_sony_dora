@@ -1,0 +1,13 @@
+# Fingerprint
+persist.qfp=false
+ro.hardware.fingerprint=fpc
+sys.fpc.tu.disabled=0
+
+# SEMC props
+ro.semc.product.model=F8132
+ro.semc.ms_type_id=PM-0980-BV
+ro.semc.product.name=Xperia X Performance
+ro.semc.product.device=F81
+
+# USB
+ro.usb.pid_suffix=1E1
